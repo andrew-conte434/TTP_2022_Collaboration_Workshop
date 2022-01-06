@@ -1,4 +1,78 @@
 body {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+  font-family: sans-serif;
+  flex-flow: row wrap;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  background-color: lightblue;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  border-radius: 4px;
+<<<<<<< HEAD
+  padding-top: 5px;
+  padding-bottom: 5px;
+=======
+  padding-top: 7px;
+  padding-bottom: 7px;
+>>>>>>> main
+  font-weight: bold;
+  border: none;
+  border-style: ridge;
+  border-radius: 4px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
+.activist {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  color: black;
+  text-shadow: 2px 2px linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
+.org {
+  display: flex;
+}
+
+.org-logo {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 60px;
+  height: 60px;
+}
+<<<<<<< HEAD
+=======
+=======
     font-family: sans-serif;
     flex-flow: row wrap;
     background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
@@ -56,3 +130,5 @@ body {
     text-align: center;
     transition: ease 3s;
   }
+>>>>>>> 88264fe30470c71bcaddc43e5896916af4e9ed44
+>>>>>>> main
