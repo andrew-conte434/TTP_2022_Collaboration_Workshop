@@ -1,3 +1,26 @@
+//FUNCTIONALITY FOR FORM ON HOME PAGE
+function submit() {
+  let name = document.forms["sign-up"]["name"].value
+  let email = document.forms["sign-up"]["email"].value
+  if(name === ""){
+    alert("Please enter your name")
+    return false
+  } else if (email === ""){
+      alert("Please enter your email address")
+      return false
+  } else {
+      let thankYou = document.createElement("h2")
+      thankYou.innerText = "Thank you for signing up for our newsletter!"
+      document.querySelector(".thanks-form").append(thankYou)
+      setTimeout(function () {
+        thankYou.innerText = ""
+      },5000)
+  }
+
+
+}
+
+//FUNCTIONALITY FOR PAGE 3
 let submitBtn = document.querySelector(".subBtn");
 let submitBtn2 = document.querySelector(".subBtn2");
 let submitBtn3 = document.querySelector(".subBtn3");
