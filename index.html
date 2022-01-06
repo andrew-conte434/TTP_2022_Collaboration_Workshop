@@ -7,9 +7,9 @@
   </head>
 
   <body>
-    <header><h1>Sea Pollution</h1></header>
+    <header><h1 class="home-header">Sea Pollution</h1></header>
     <div>
-      <img style="width: 100%;" src="images/great pacific garbage patch.jpg" />
+      <img id="home-image" src="images/great pacific garbage patch.jpg" />
       <h1>Did you know?</h1>
       <ul>
         <li>
@@ -42,12 +42,25 @@
           plastic microfibers per square kilometer litter the deep sea.
         </li>
       </ul>
-      <h1>Activists</h1>
-      <a href="page2.html"> Learn more about activists</a>
-      <h1>Donations</h1>
+
+      <a href="page2.html"> Learn more about activists fighting for our oceans!</a>
+      <br/>
       <a href="page3.html"> Click here to donate!</a>
     </div>
 
+    <div class="form">
+      <h3>Sign up for our newsletter!</h3>
+      <form>
+        <div class="form-input">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-input">
+          <label for="email">E-mail address</label>
+          <input type="email" name="email" id="email">
+        </div>
+      </form>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

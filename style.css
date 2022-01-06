@@ -29,6 +29,10 @@ body {
     background: #f2f2f2;
   }
   
+  .home-image{
+    width: 400px;
+    margin: 0 auto;
+  }
   .org {
     display: flex;
   }
@@ -40,3 +44,12 @@ body {
     height: 60px;
   }
   
+  .home-header {
+    font-size: 64px;
+    text-align: center; 
+    margin: 10px auto;
+  }
+
+  .form {
+    vertical-align: auto;
+  }
