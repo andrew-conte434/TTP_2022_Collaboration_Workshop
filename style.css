@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   font-family: sans-serif;
   flex-flow: row wrap;
   background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
@@ -54,3 +55,62 @@ h1 {
   width: 60px;
   height: 60px;
 }
+=======
+    font-family: sans-serif;
+    flex-flow: row wrap;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    color: var(--text);
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 24px;
+    background-color: lightblue;
+  }
+  
+  li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    background: #f2f2f2;
+  }
+  
+  .org {
+    display: flex;
+  }
+  
+  .org-logo {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .banner {
+    border: solid black;
+    height:auto;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .title-homepage {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: ease 3s;
+  }
+>>>>>>> 88264fe30470c71bcaddc43e5896916af4e9ed44
