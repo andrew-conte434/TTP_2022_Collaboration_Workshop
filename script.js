@@ -1,24 +1,21 @@
 //FUNCTIONALITY FOR FORM ON HOME PAGE
-function submit() {
-  let name = document.forms["sign-up"]["name"].value
-  let email = document.forms["sign-up"]["email"].value
-  if(name === ""){
-    alert("Please enter your name")
-    return false
-  } else if (email === ""){
-      alert("Please enter your email address")
-      return false
-  } else {
-      let thankYou = document.createElement("h2")
-      thankYou.innerText = "Thank you for signing up for our newsletter!"
-      document.querySelector(".thanks-form").append(thankYou)
-      setTimeout(function () {
-        thankYou.innerText = ""
-      },5000)
-  }
 
+let signUpBtn = document.querySelector(".signup-btn")
+let thanksforSigning = document.querySelector(".thanks-form")
+let emailName = document.querySelector(".email-name")
+let email = document.querySelector(".email")
 
-}
+signUpBtn.addEventListener("click", function submit() {
+  let thankYou = document.createElement("h2");
+  thankYou.innerText = " Thank you for signing up!";
+  thanksforSigning.append(thankYou);
+  emailName.value = ""
+  email.value = ""
+  setTimeout(function () {
+    thankYou.innerText = " "
+  },5000)
+})
+
 
 //FUNCTIONALITY FOR PAGE 3
 let submitBtn = document.querySelector(".subBtn");
@@ -45,7 +42,7 @@ submitBtn.addEventListener("click", function () {
   setTimeout(function () {
     thankYou.innerText = " "
   },5000)
-});
+
 
 submitBtn2.addEventListener("click", function () {
   let thankYou = document.createElement("h2");
