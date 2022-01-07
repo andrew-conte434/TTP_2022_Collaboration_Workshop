@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 //FUNCTIONALITY FOR FORM ON HOME PAGE
 
 let signUpBtn = document.querySelector(".signup-btn")
@@ -19,7 +17,6 @@ signUpBtn.addEventListener("click", function submit() {
 })
 
 //FUNCTIONALITY FOR PAGE 3
->>>>>>> Stashed changes
 let submitBtn = document.querySelector(".subBtn");
 let inputSub = document.querySelector(".inputSub");
 let thanks = document.querySelector(".thanks");
@@ -29,14 +26,10 @@ let Thanks = submitBtn.addEventListener("click", function () {
   thankYou.innerText = " The world thanks you for your donation!";
   thanks.append(thankYou);
   inputSub.value = "";
-<<<<<<< Updated upstream
-});
-=======
   setTimeout(function () {
     thankYou.innerText = " "
   },5000)
 })
->>>>>>> Stashed changes
 
 let thanksTimer = setTimeout(function clear(Thanks) {
   Thanks.clear();
