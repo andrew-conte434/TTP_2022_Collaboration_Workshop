@@ -93,3 +93,6 @@ h3 {
   transition: ease 3s;
 }
 
+.sign-up-form {
+  vertical-align: center;
+}
